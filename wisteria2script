@@ -24,7 +24,7 @@ end
 
 	MainSection:NewButton("infinite spins", "OPness", function()
 getgenv().auto_spin = {
-   clans_wanted = {'Kamado'} -- Must be the exact identical names stored in their servers.
+   clans_wanted = {'Kamado, Tsugikuni'} -- Must be the exact identical names stored in their servers.
 } -- Leave that on auto-execute must be in game start menu
 loadstring(game:HttpGet('https://gamefraud.lol/muz/scripts/ingame_infspin.lua'))()
 	end)
